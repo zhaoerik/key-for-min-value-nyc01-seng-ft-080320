@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   name_hash = name_hash.sort_by {|k,v| v}
-  name_hash[0]
+  name_hash[0][0]
 end
 
 # def key_for_min_value(name_hash)
