@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     if name_hash[key][value] <= nil
     puts "#{key}"
   elsif name_hash = {}
-    puts nil 
+    puts nil
     end
   end
 end
