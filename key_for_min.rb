@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   item_min_value = ""
   name_hash.each do |k, v|
-    if item = name_hash[k][v] && value = name_hash.min
+    if item = name_hash[k][v] && v = name_hash.min
       item_min_value = value
     end
   end
