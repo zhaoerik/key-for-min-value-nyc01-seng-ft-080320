@@ -13,6 +13,8 @@
 def key_for_min_value(name_hash)
   item_min_value = ""
   name_hash.each do |x,y|
+    x = 0
+    y = 0
     if name_hash[x][y] < name_hash[x][y+1]
       item_min_value = name_hash[x][y]
       y += 1
